@@ -51,6 +51,7 @@
             android:padding="8dp">
 
             <TextView
+                android:id="@+id/latitude"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
@@ -71,6 +72,7 @@
             android:padding="8dp">
 
             <TextView
+                android:id="@+id/longitude"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
@@ -86,6 +88,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/city"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -118,15 +121,15 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="33 °C"
-            android:textSize="30dp"
+            android:textSize="40dp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="33 °C"
-            android:textSize="30dp"
+            android:text="33 °F"
+            android:textSize="40dp"
             android:textStyle="bold" />
     </RelativeLayout>
 
